@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+     <link rel="stylesheet" href="flex.css">
+
+     <style>
+
+.container{
+
+    border: 5px solid red;
+    display: flex;
+    height: 900px;
+   
+    /* flex-direction: row-reverse; */
+
+ /* justify-content:center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    align-content: center;
+    row-gap: 20px;
+    column-gap: 30px;
+    gap: 10px 20px; */
+    flex-direction: row;
+
+}
+         
+  .items{
+
+        width: 100px;
+        height: 100px;
+        background-color: cadetblue;
+        border:2px solid black;
+        /* flex-grow: 1; */
+  }
+  .items2{
+
+     /* flex-grow: 3; */
+       width: 100px;
+        height: 100px;
+        background-color: cadetblue;
+        border:2px solid black;
+        flex-shrink: 2;align-self: center;
+
+  }
+
+  /* .order-1{
+    order:10;
+  }
+  .order-2{
+    order:0;
+  }
+  .order-1{
+    order:2;
+  } */
+
+     </style>
+
+
+
+</head>
+<body>
+    
+    <main>
+        <div class="container">
+
+             <div class="items order-1">1</div>
+             <div class="items order-1">2</div>
+             <div class="items">3</div>
+             <div class="items2">4</div>
+             <div class="items">5</div>
+            
+        </div>
+
+    </main>
+
+</body>
+</html>
