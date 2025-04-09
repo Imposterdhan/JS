@@ -32,7 +32,7 @@ let num5=Number(false)
 console.log(num3,typeof num3);
 
 console.log(String(Boolean("100")));
-
+// hjfg
 
 console.log(Boolean(String("100")));
 
