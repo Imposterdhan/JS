@@ -33,6 +33,7 @@ console.log(num3,typeof num3);
 
 console.log(String(Boolean("100")));
 // hjfg
+// finally set
 
 console.log(Boolean(String("100")));
 
