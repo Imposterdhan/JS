@@ -32,8 +32,9 @@ let num5=Number(false)
 console.log(num3,typeof num3);
 
 console.log(String(Boolean("100")));
-// hjfg
-// finally set
+
+// finally set- git add .; git commit -m "daily progress"; git push origin main
+
 
 console.log(Boolean(String("100")));
 
