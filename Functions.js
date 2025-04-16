@@ -6,7 +6,7 @@
 // code resusability
 // makes complex program into simple programs
 // Note:There are _  of functions 
-
+// Functions are also hoisted
 
 /*
 
@@ -39,7 +39,7 @@ Function syntax:
 
  THE fn which does not have fn name is called as anonymous fn
  eg:
-        Function()
+        Function ()
         {
              log("Anonymous  Fn")
         } 
@@ -56,5 +56,29 @@ Function syntax:
      b()
 
 
+     function demo(x,y)
+     {
+          console.log("addition of x and y",x+y);
+          console.log("substraction of x and y ",x-y);
+          
+     }
+    demo(20,20)
+
+
+    // Fn with expression
+
+
+// let a=function (name){
+
+//        console.log("Function with expression");
+//        return `${name} is jatre`
+// }
+// console.log(a("shashank"))
 
 */
+
+
+
+ 
+
+
