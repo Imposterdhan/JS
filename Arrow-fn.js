@@ -41,6 +41,7 @@ let fifth=()=>{
     console.log("hello fifth")
 
 }
+//commit
 // console.log(fifth())    dont use like this
 
 
