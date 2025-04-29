@@ -22,18 +22,33 @@
 
 // every time i click background color should change
 
-let a=document.getElementById('demo')
+// let a=document.getElementById('demo')
 
-a.onclick=()=>{
+// a.onclick=()=>{
 
-    // a.body.style.backgroundColor="red";
-    a.style.backgroundColor = changecolor();
-}
+//     // a.body.style.backgroundColor="red";
+//     a.style.backgroundColor = changecolor();
+// }
 
-function changecolor(){
+// function changecolor(){
 
-    let color=['blue','yellow','goldenrod',"hotpink"];
+//     let color=['blue','yellow','goldenrod',"hotpink"];
 
-    return color[Math.floor(Math.random()*color.length)]
-}
+//     return color[Math.floor(Math.random()*color.length)]
+// }
+
+
+let addForm=document.querySelector('form');
+ addForm=addEventListener('submit',(a)=>{
+
+                 let id=document.getElementById('un').value;
+                 let pass=document.getElementById('pass').value;
+                 a.preventDefault()
+                 console.log(id,pass);
+                 
+
+})
+
+
+
 
