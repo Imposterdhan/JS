@@ -11,4 +11,6 @@
 // console.log(localStorage.clear());
 
 
+// session storage
+
 // let b = sessionStorage.setItem('id',123)
